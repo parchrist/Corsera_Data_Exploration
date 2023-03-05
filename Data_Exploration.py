@@ -61,9 +61,10 @@ print('The medain value of the data set is...'), print(median_value)
 
 df.boxplot(column='MEDV')
 plt.show()
-
+## EXPLINATION: THE MEDIAN VALUE IS PRINTED, THIS IS A BOX PLOT THAT SHOWS THE MEDIAN VALUE OF THE PRICE OF A HOME
 
 # ## Provide a  bar plot for the Charles river variable
+# ### EXPLINATION: THIS IS A BAR PLOT FOR THE CHARLES RIVER VARIABLE MEANING THE DISTRIUBUTION OF THE HOMES AND THEIR LOC.
 
 # In[27]:
 
@@ -78,7 +79,7 @@ print(counts)
 
 
 # ## Provide a boxplot for the MEDV variable vs the AGE variable. (Discretize the age variable into three groups of 35 years and younger, between 35 and 70 years and 70 years and older)
-
+# ### EXPLINATION: BOXPLOT FOR THE MEDV VAR AND THE AGE VAR IN THE DATA SET
 # In[38]:
 
 
@@ -100,6 +101,7 @@ plt.show()
 
 # In[41]:
 
+# ## EXPLINATION: THERE IS A VERY WEAK CORRELATION ON THIS GRAPH, BUT FOR THE ACRES THERE IS A SLIGHT INCREASE
 
 sns.regplot(x='INDUS', y='NOX', data=df)
 plt.title('Relationship between Nitric Oxide Concentrations and Non-Retail Business Acres')
